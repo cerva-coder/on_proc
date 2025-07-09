@@ -97,15 +97,48 @@ Apenas acessível para usuários com perfil `admin` e parcialmente para `gerente
 
 ---
 
-## 📁 Estrutura de Arquivos
+# ⚙️ ON_Proc – Instalação do Sistema
 
-```bash
-📂 system/
-├── painel.php                # Painel principal do sistema
-├── login.php                 # Tela de login com proteção
-├── process_create.php        # Formulário para criação de processo
-├── protocol.php              # Protocolo de documentos
-├── andamento.php             # Linha do tempo dos processos
-├── view_process.php          # Visualização e exclusão de documentos
-├── admin.php                 # Painel de administração
-├── overview.php              # Página de FAQ e ajuda
+Bem-vindo ao **ON_Proc**, um sistema de gestão eletrônica de processos.  
+Siga os passos abaixo para instalar e configurar o sistema no seu servidor.  
+
+---
+
+## 📥 1. Baixar os Arquivos
+
+Faça upload de todos os arquivos do sistema para o seu servidor.  
+Você pode usar um cliente **FTP** (como FileZilla) ou o **Gerenciador de Arquivos** do cPanel.
+
+---
+
+## 🗃️ 2. Importar o Banco de Dados
+
+1. Acesse o **phpMyAdmin** ou outro gerenciador de banco MySQL.
+2. Crie um novo banco de dados com o nome: `on_proc`
+3. Importe o arquivo `on_proc.sql`, localizado na raiz do sistema.
+
+---
+
+## 🔐 3. Acessar o Sistema
+
+
+Abra seu navegador e acesse a URL onde você enviou os arquivos.
+
+Use as seguintes credenciais padrão para login:
+
+- **Usuário:** `admin`  
+- **Senha:** `onproc@123`
+
+---
+
+## 4️⃣ Altere a senha
+
+Por segurança, após o primeiro acesso, vá até a área administrativa do sistema e **altere a senha do usuário admin**.
+
+---
+
+✅ Pronto! O sistema está instalado e pronto para uso.
+
+
+
+
