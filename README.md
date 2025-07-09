@@ -1,4 +1,4 @@
-# 🗂️ ON_Proc – Sistema de Gestão de Processos Administrativos
+# 🗂️ ON_Proc – Sistema de Gestão de Processos Eletrônicos
 
 O **ON_Proc** é um sistema web moderno para **controle, gestão e acompanhamento de processos administrativos**. Desenvolvido com foco na segurança, usabilidade e rastreabilidade, ele é ideal para ambientes institucionais ou organizacionais que necessitam de fluxo documental estruturado.
 
