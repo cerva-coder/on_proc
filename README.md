@@ -20,7 +20,7 @@ O **ON_Proc** é um sistema web moderno para **controle, gestão e acompanhament
 | Perfil                | Permissões                                                                 |
 |----------------------|----------------------------------------------------------------------------|
 | `Administrador`       | Acesso total a todos os módulos e usuários                                |
-| `Gerente de Departamento` | Gestão de processos da própria OM                                      |
+| `Gerente de Departamento` | Gestão de processos pelo departamento                                 |
 | `Protocolador`        | Anexar documentos aos processos designados                                |
 | `Visualizador`        | Acesso apenas para leitura                                                 |
 
